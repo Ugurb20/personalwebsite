@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #f4f1e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App,
+#root {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #bdb498;
+}
+
+h1 {
+  color: #3b2827;
+  font-family: "Gemunu Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+p {
+  font-family: "Gemunu Libre";
+  font-style: normal;
+  font-weight: 369;
+  font-size: 16px;
+  line-height: 17px;
+
+  color: #766862;
+}
+
+a {
+  color: #3b2827;
+  font-family: "Gemunu Libre";
+  font-weight: 369;
+  font-size: 16px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 70%;
+}
+.main-body {
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  p {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}

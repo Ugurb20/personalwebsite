@@ -1,0 +1,1 @@
+const getProjects = (req, res) => {};

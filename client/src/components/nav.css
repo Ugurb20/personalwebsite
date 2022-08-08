@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #f4f1e0;
+  width: 100%;
+  border-bottom: 1px solid #bdb498;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: all 0.5s;
+}
+
+.nav-container {
+  min-width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container a {
+  transition: all 0.5s;
+}
+
+.nav-container a:hover {
+  cursor: pointer;
+}
+
+.nav-container svg {
+  margin: 0 5px;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding-left: 10%;
+  }
+  .nav-container {
+    justify-content: space-around;
+  }
+}

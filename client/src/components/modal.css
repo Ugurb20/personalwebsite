@@ -1,0 +1,42 @@
+.nav-modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.expand {
+  background-color: #525252;
+  right: 0;
+  bottom: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.modal-link-container {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-link-container a {
+  color: #f4f1e0;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 10px 0;
+}
+
+.modal-link-container a:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+@media screen and (min-width: 1024px) {
+  .modal-link-container {
+    padding-left: 10%;
+  }
+}
